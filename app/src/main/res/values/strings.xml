@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Inicio de sesion</string>
+    <string name="login_title">Inicio de sesion</string>
+
+    <string name="hint_usuario">Correo o usuario</string>
+    <string name="hint_password"></string>
+
+    <string name="login_button">Iniciar sesion</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+
+    <string name="olvido_password">¿Olvido su contraseña?</string>
+
+    <string name="total_label">Total: $%1$.2f</string>
+    
+    <string name="precio_default">$ 0.00</string>
+    <string name="nombre_default">Nombre</string>
+</resources>
