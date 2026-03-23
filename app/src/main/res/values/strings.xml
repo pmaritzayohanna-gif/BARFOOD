@@ -11,7 +11,7 @@
     <string name="olvido_password">¿Olvido su contraseña?</string>
 
     <string name="total_label">Total: $%1$.2f</string>
-    
+
     <string name="precio_default">$ 0.00</string>
     <string name="nombre_default">Nombre</string>
 </resources>

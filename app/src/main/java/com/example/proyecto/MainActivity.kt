@@ -7,10 +7,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,18 +20,14 @@ class MainActivity : AppCompatActivity() {
         val etUsuario = findViewById<EditText>(R.id.etUsuario)
         val etPassword = findViewById<EditText>(R.id.etPassword)
         val btnLogin = findViewById<Button>(R.id.btnLogin)
-        val datos = listOf(
-            "Manzana",
-            "Banano",
-            "Naranja",
-            "Mango",
-            "Uva"
-        )
+        val btnPedidos = findViewById<Button>(R.id.btnPedidos)
 
 
         btnLogin.setOnClickListener {
             val usuario = etUsuario.text.toString().trim()
             val password = etPassword.text.toString().trim()
+        btnPedidos.setOnClickListener {
+
 
             if (usuario == "admin" && password == "1234") {
 
@@ -53,6 +46,9 @@ class MainActivity : AppCompatActivity() {
             }
 
 
+        }
+            val intent = Intent(this, PedidosActivity::class.java)
+            startActivity(intent)
         }
 
     }
