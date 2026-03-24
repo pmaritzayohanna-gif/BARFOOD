@@ -53,5 +53,6 @@ dependencies {
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("androidx.gridlayout:gridlayout:1.1.0")
+    implementation(libs.androidx.activity)
 
 }
