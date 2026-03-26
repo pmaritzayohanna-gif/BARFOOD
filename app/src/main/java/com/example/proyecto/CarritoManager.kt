@@ -2,7 +2,7 @@ package com.example.proyecto
 
 object CarritoManager {
 
-    private val listaCarrito = mutableListOf<Suplemento>()
+    val listaCarrito : MutableList<Suplemento> = mutableListOf()
 
     fun agregarProducto(producto: Suplemento) {
         listaCarrito.add(producto)
